@@ -37,7 +37,7 @@ jobs:
       - name: Test simulator
         run: pytest -q
       - name: Build book
-        run: myst build --html --execute
+        run: myst build --html --execute --strict
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./_build/html

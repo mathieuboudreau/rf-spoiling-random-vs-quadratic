@@ -2,5 +2,6 @@ numpy>=1.26
 plotly>=6
 pandas
 ipykernel
+jupyter-server
 mystmd
 pytest
