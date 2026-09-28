@@ -1,0 +1,22 @@
+version: 1
+project:
+  title: "RF spoiling: why not just use random phases?"
+  description: Interactive comparison of quadratic RF phase cycling and random RF phases in spoiled gradient echo (SPGR).
+  authors:
+    - name: Mathieu Boudreau
+  keywords: [MRI, SPGR, FLASH, RF spoiling, Bloch simulation]
+  toc:
+    - file: index.md
+    - file: theory.md
+    - file: few-spins.md
+    - file: steady-state.md
+    - file: image.md
+    - file: takeaways.md
+  exclude:
+    - docs/**
+    - tests/**
+    - README.md
+site:
+  template: book-theme
+  options:
+    folders: true

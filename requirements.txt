@@ -1,0 +1,5 @@
+numpy>=1.26
+plotly>=6
+ipykernel
+mystmd
+pytest
